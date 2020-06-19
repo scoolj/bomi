@@ -1,23 +1,23 @@
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework import permissions
-from .models import PropertyOWner
-from .serializers import PropertyOWnerSerializer
+from .models import PropertyOwner
+from .serializers import PropertyOwnerSerializer
 
 
-class PropertyOWnerListView(ListAPIView):
+class PropertyOwnerListView(ListAPIView):
     permission_classes = (permissions.AllowAny, )
-    queryset = PropertyOWner.objects.all()
-    serializer_class = PropertyOWnerSerializer
+    queryset = PropertyOwner.objects.all()
+    serializer_class = PropertyOwnerSerializer
     pagination_class = None
 
 
-class PropertyOWnerView(RetrieveAPIView):
-    queryset = PropertyOWner.objects.all()
-    serializer_class = PropertyOWnerSerializer
+class PropertyOwnerView(RetrieveAPIView):
+    queryset = PropertyOwner.objects.all()
+    serializer_class = PropertyOwnerSerializer
 
 
 class TopSellerView(ListAPIView):
     permission_classes = (permissions.AllowAny, )
-    queryset = PropertyOWner.objects.filter(top_seller=True)
-    serializer_class = PropertyOWnerSerializer
+    queryset = PropertyOwner.objects.filter(top_seller=True)
+    serializer_class = PropertyOwnerSerializer
     pagination_class = None

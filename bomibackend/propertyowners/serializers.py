@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import PropertyOWner
+from .models import PropertyOwner
 
 
-class PropertyOWnerSerializer(serializers.ModelSerializer):
+class PropertyOwnerSerializer(serializers.ModelSerializer):
     class Meta:
-        model = PropertyOWner
+        model = PropertyOwner
         fields = '__all__'

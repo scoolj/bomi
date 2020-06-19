@@ -1,9 +1,9 @@
 from django.urls import path
-from .views import PropertyOWnerListView, PropertyOWnerView, TopSellerView
+from .views import PropertyOwnerListView, PropertyOwnerView, TopSellerView
 
 urlpatterns =[
-    path('', PropertyOWnerListView.as_view()),
+    path('', PropertyOwnerListView.as_view()),
     path('topseller', TopSellerView.as_view()),
-    path('<pk>', PropertyOWnerView.as_view()),
+    path('<pk>', PropertyOwnerView.as_view()),
 
 ]
