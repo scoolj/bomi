@@ -65,7 +65,7 @@ export const signup = ({ name, email, password, password2 }) => async ( dispatch
     dispatch(login(email, password));
   } catch (err) {
     dispatch({
-      type: SIG_FAIL,
+      type: SIGNUP_FAIL,
     });
 
     dispatch(setAlert("Error Authenticating", "error"));
@@ -73,6 +73,6 @@ export const signup = ({ name, email, password, password2 }) => async ( dispatch
 };
 
 export const logout = () => dispatch => {
-    dispatch(setAlert("logout successful.", "success"));
+    dispatch(setAlert("you have successfully logout.", "success"));
   dispatch({ type: LOGOUT });
 };
