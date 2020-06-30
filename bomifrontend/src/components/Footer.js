@@ -9,29 +9,29 @@ const footer = () => {
                     <div className="col-xl-3 col-md-6 col-lg-3">
                         <div className="footer_widget">
                             <div className="footer_logo">
-                                <a href="#">
-                                    <img src="img/footer_logo.png" alt=""/>
+                                <a href="/">
+                                    <img src="/assets/img/footer_logo.png" alt=""/>
                                 </a>
                             </div>
                             <p>
-                                    <a href="#">conbusi@support.com</a> <br />
+                                    <a href="/">conbusi@support.com</a> <br />
                                     +10 873 672 6782 <br />
                                     600/D, Green road, NewYork
                             </p>
                             <div className="socail_links">
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <i className="ti-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <i className="ti-twitter-alt"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <i className="fa fa-instagram"></i>
                                         </a>
                                     </li>
@@ -46,11 +46,11 @@ const footer = () => {
                                     Services
                             </h3>
                             <ul>
-                                <li><a href="#">Marketing & SEO</a></li>
-                                <li><a href="#"> Startup</a></li>
-                                <li><a href="#">Finance solution</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Travel</a></li>
+                                <li><a href="/">Marketing & SEO</a></li>
+                                <li><a href="/"> Startup</a></li>
+                                <li><a href="/">Finance solution</a></li>
+                                <li><a href="/">Food</a></li>
+                                <li><a href="/">Travel</a></li>
                             </ul>
 
                         </div>
@@ -61,10 +61,10 @@ const footer = () => {
                                     Useful Links
                             </h3>
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#"> Contact</a></li>
-                                <li><a href="#">Appointment</a></li>
+                                <li><a href="/">About</a></li>
+                                <li><a href="/">Blog</a></li>
+                                <li><a href="/"> Contact</a></li>
+                                <li><a href="/">Appointment</a></li>
                             </ul>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const footer = () => {
                                     <h3 className="footer_title">
                                             Subscribe
                                     </h3>
-                                    <form action="#" className="newsletter_form">
+                                    <form action="/" className="newsletter_form">
                                         <input type="text" placeholder="Enter your mail" />
                                         <button type="submit">Subscribe</button>
                                     </form>

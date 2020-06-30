@@ -8,7 +8,7 @@ const teamArea = () => {
                             <div className="col-xl-12">
                                 <div className="section_title mb-40 text-center">
                                     <h3>
-                                            Our Agents
+                                            The Team
                                     </h3>
                                 </div>
                             </div>
@@ -17,7 +17,7 @@ const teamArea = () => {
                             <div className="col-xl-3 col-lg-3 col-md-6">
                                 <div className="single_team">
                                     <div className="team_thumb">
-                                        <img src="img/team/1.png" alt=""/>
+                                        <img src="/assets/img/team/1.png" alt=""/>
                                         <div className="social_link">
                                                 <ul>
                                                     <li><a href="#">
@@ -44,7 +44,7 @@ const teamArea = () => {
                             <div className="col-xl-3 col-lg-3 col-md-6">
                                 <div className="single_team">
                                     <div className="team_thumb">
-                                        <img src="img/team/2.png" alt=""/>
+                                        <img src="/assets/img/team/2.png" alt=""/>
                                         <div className="social_link">
                                                 <ul>
                                                     <li><a href="#">
@@ -71,7 +71,7 @@ const teamArea = () => {
                             <div className="col-xl-3 col-lg-3 col-md-6">
                                 <div className="single_team">
                                     <div className="team_thumb">
-                                        <img src="img/team/3.png" alt=""/>
+                                        <img src="/assets/img/team/3.png" alt=""/>
                                         <div className="social_link">
                                                 <ul>
                                                     <li><a href="#">
@@ -98,7 +98,7 @@ const teamArea = () => {
                             <div className="col-xl-3 col-lg-3 col-md-6">
                                 <div className="single_team">
                                     <div className="team_thumb">
-                                        <img src="img/team/4.png" alt=""/>
+                                        <img src="/assets/img/team/4.png" alt=""/>
                                         <div className="social_link">
                                                 <ul>
                                                     <li><a href="#">

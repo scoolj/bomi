@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const header = () => {
-    return (
 
-        <div className="header-area ">
+class Header extends Component {
+    state = {  }
+    render() { 
+        return ( 
+            <div className="header-area ">
             <div className="header-top_area d-none d-lg-block">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-md-5 ">
                             <div className="header_left">
-                                <p>Welcome to Conbusi consulting service</p>
+                                <p>Welcome to Bomi Africa</p>
                             </div>
                         </div>
                         <div className="col-xl-7 col-md-7">
@@ -44,7 +46,7 @@ const header = () => {
                             <div className="col-xl-3 col-lg-2">
                                 <div className="logo">
                                     <a href="index.html">
-                                        <img src="img/logo.png" alt="" />
+                                        <img src="/assets/img/logo.png" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -68,6 +70,8 @@ const header = () => {
                                                 </ul>
                                             </li>
                                             <li><a href="contact.html">Contact</a></li>
+                                            <li><a href=".html">Login</a></li>
+                                            <li><a href="contact.html">Signup</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -93,7 +97,8 @@ const header = () => {
                 </div>
             </div>
         </div>
-     );
+         );
+    }
 }
  
-export default header;
+export default Header;

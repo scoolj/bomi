@@ -17,7 +17,7 @@ const accordion = () => {
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="">
+                                                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style={{}}>
                                                         <div className="card-body">Esteem spirit temper too say adieus who direct esteem esteems luckily or picture placing drawing.
                                                         </div>
                                                     </div>
@@ -30,7 +30,7 @@ const accordion = () => {
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                                                    <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion" style={{}}>
                                                         <div className="card-body">Esteem spirit temper too say adieus who direct esteem esteems luckily or picture placing drawing.
                                                         </div>
                                                     </div>
@@ -43,7 +43,7 @@ const accordion = () => {
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
+                                                    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion" style={{}}>
                                                         <div className="card-body">Esteem spirit temper too say adieus who direct esteem esteems luckily or picture placing drawing.
                                                         </div>
                                                     </div>

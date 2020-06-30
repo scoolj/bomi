@@ -1,13 +1,13 @@
 import React from 'react';
 
-const cardPopularProperty = () => {
+const popularPropertyPlusPadding = () => {
     return ( 
-        <div className="popular_property">
+        <div className="popular_property plus_padding">
         <div className="container">
             <div className="row">
                 <div className="col-xl-12">
                     <div className="section_title mb-40 text-center">
-                        <h3>Popular Properties</h3>
+                        <h4>240 Properties found</h4>
                     </div>
                 </div>
             </div>
@@ -277,4 +277,4 @@ const cardPopularProperty = () => {
      );
 }
  
-export default cardPopularProperty;
+export default popularPropertyPlusPadding;
